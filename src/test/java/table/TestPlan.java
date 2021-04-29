@@ -66,13 +66,13 @@ public class TestPlan extends BasePage {
 
     }
 
-    public void getEmailss() {
-
-        List<WebElement> row = driver.findElements(By.xpath("//table[@id= 'table1']/tbody/tr"));
-        persions = row.stream().map(TestPlan::toPerson).collect(Collectors.toList());
-
-        String perEmail = persions.stream().m
-
-    }
+//    public void getEmailss() {
+//
+//        List<WebElement> row = driver.findElements(By.xpath("//table[@id= 'table1']/tbody/tr"));
+//        persions = row.stream().map(TestPlan::toPerson).collect(Collectors.toList());
+//
+//        String perEmail = persions.stream().m
+//
+//    }
 
 }
